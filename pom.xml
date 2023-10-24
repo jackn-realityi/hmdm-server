@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   ~
   ~ Headwind MDM: Open Source Android MDM Software
@@ -55,12 +55,12 @@
         <mybatis.guice.version>3.10</mybatis.guice.version>
 
         <postgresql.version>42.3.3</postgresql.version>
-        <liquibase.version>3.6.3</liquibase.version>
+        <liquibase.version>3.8.1</liquibase.version>
 
         <junit.version>4.13.1</junit.version>
-        <slf4j.version>1.7.2</slf4j.version>
+        <slf4j.version>1.7.34</slf4j.version>
 
-        <poi.version>4.1.0</poi.version>
+        <poi.version>5.1.0</poi.version>
 
         <timestamp>${maven.build.timestamp}</timestamp>
         <maven.build.timestamp.format>D-HH-mm</maven.build.timestamp.format>
@@ -69,7 +69,7 @@
 
         <opensource.dist.dir>/Headwind/AndroidKioskWeb/opensource</opensource.dist.dir>
 
-        <glassfish-jersey.version>2.25.1</glassfish-jersey.version>
+        <glassfish-jersey.version>2.31</glassfish-jersey.version>
         <guice-bridge.version>2.6.1</guice-bridge.version>
         
         <lombok.version>1.18.20</lombok.version>
@@ -156,7 +156,7 @@
         <dependency>
             <groupId>io.swagger</groupId>
             <artifactId>swagger-jersey2-jaxrs</artifactId>
-            <version>1.5.24</version>
+            <version>1.6.12</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
